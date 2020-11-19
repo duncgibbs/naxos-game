@@ -1,16 +1,18 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React, { useState } from 'react';
 import { hot } from 'react-hot-loader';
-import HomePage from './routes/home/HomePage';
-import settings from '../../settings';
+import Puzzle from './Puzzle';
+import PuzzleSelector from './PuzzleSelector';
+
+import './App.less';
 
 function App() {
+  const [puzzle, setPuzzle] = useState(1);
+
   return (
-    <BrowserRouter basename={settings.repoPath}>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-      </Switch>
-    </BrowserRouter>
+    <div className='app'>
+      <PuzzleSelector onSelect={setPuzzle} />
+      <Puzzle puzzleNumber={puzzle} />
+    </div>
   );
 }
 

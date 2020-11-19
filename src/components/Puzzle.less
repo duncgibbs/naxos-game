@@ -1,0 +1,17 @@
+svg {
+    g {
+        circle {
+            pointer-events: none;
+        }
+
+        polygon {
+            fill: black;
+            fill-opacity: 0.0;
+        }
+
+        polygon.neighbor:hover {
+            fill-opacity: 0.5;
+            transition: fill-opacity .2s;
+        }
+    }
+}

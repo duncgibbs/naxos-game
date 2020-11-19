@@ -1,7 +1,7 @@
 {
-  "name": "react-pages-boilerplate",
-  "version": "1.0.0",
-  "description": "Simple boilerplate for working with React, redux, react-router and Github Pages",
+  "name": "naxos-games",
+  "version": "0.0.1",
+  "description": "A puzzle game",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -16,14 +16,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtivital/react-pages-boilerplate.git"
+    "url": "git+https://github.com/duncgibbs/naxos-game.git"
   },
-  "author": "Vitaly Rtishchev <rtivital@gmail.com> (http://github.com/rtivital)",
+  "author": "Duncan Gibbs <duncgibbs@gmail.com> (http://github.com/duncgibbs)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rtivital/react-pages-boilerplate/issues"
+    "url": "https://github.com/duncgibbs/naxos-game/issues"
   },
-  "homepage": "https://github.com/rtivital/react-pages-boilerplate#readme",
+  "homepage": "https://github.com/duncgibbs/naxos-game#readme",
   "dependencies": {
     "classnames": "^2.2.6",
     "enzyme-adapter-react-16": "^1.15.4",

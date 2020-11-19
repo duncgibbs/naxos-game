@@ -92,14 +92,14 @@ module.exports = {
             : 'style-loader',
           {
             loader: 'css-loader',
-            options: {
-              modules: {
-                localIdentName:
-                  mode === 'production'
-                    ? '[hash:base64:10]'
-                    : '[path][name]__[local]--[hash:base64:5]',
-              },
-            },
+            // options: {
+            //   modules: {
+            //     localIdentName:
+            //       mode === 'production'
+            //         ? '[hash:base64:10]'
+            //         : '[path][name]__[local]--[hash:base64:5]',
+            //   },
+            // },
           },
           {
             loader: 'less-loader',

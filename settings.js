@@ -1,6 +1,6 @@
 module.exports = {
   // Base application title used in document.title
-  title: 'React pages boilerplate',
+  title: 'NAXOS',
 
   // use cname option to add CNAME file to webpack build
   // CNAME file allows to use custom domain names with gh-pages, example:
@@ -9,7 +9,7 @@ module.exports = {
 
   // add repo path for username.github.io/repoPath for react router to recognize paths,
   // use only when deployed to github.io, leave as null for deployments with custom domains
-  repoPath: '/react-pages-boilerplate',
+  repoPath: '/naxos-game',
 
   // list of routes that should be prerendered
   // list should always contain '/' and '/404' for gh-pages to recognize app
